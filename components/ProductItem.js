@@ -6,6 +6,7 @@ import {
     CardContent,
     CardMedia,
     Typography,
+    Rating
   } from '@mui/material';
   import NextLink from 'next/link';
   import React from 'react';
@@ -23,9 +24,7 @@ import {
             ></CardMedia>
             <CardContent>
               <Typography>{product.name}</Typography>
-              <Typography>
-                {product.rating} ({product.numReviews} reviews)
-              </Typography>
+              <Rating value={product.rating} readOnly></Rating>
             </CardContent>
           </CardActionArea>
         </NextLink>
