@@ -1,5 +1,5 @@
 
-6. Connect to Sanity.io
+ Connect to Sanity.io
    1. install sanity
    2. initialize sanity
    3. create product model
