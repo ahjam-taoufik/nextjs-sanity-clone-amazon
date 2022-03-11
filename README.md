@@ -1,5 +1,4 @@
- Create Shipping Screen
-    1. create shipping component
-    2. get address fields
+ Create Payment Screen
+    1. create payment component
+    2. get payment method
     3. implement submit handler
-    4. handle redirect
