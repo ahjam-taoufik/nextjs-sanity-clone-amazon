@@ -1,4 +1,4 @@
-Update User Profile
-    1. create profile screen
-    2. craete input forms for name, email
-    3. update user info
+Create Search Screen
+    1. create search screen
+    2. implement search filters
+    3. list products
