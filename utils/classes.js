@@ -6,28 +6,32 @@ const classes = {
   smallText: {
     fontSize: '15px',
   },
-    main: {
-      marginTop: 2,
-      minHeight: '80vh',
+  main: {
+    marginTop: 2,
+    minHeight: '80vh',
+  },
+  footer: {
+    marginTop: 1,
+    textAlign: 'center',
+  },
+  appbar: {
+    backgroundColor: '#203040',
+    '& a': {
+      color: '#ffffff',
+      marginLeft: 1,
     },
-    footer: {
-      marginTop: 1,
-      textAlign: 'center',
-    },
-    appbar: {
-      backgroundColor: '#203040',
-      '& a': {
-        color: '#ffffff',
-        marginLeft: 1,
-      },
-    },
-    toolbar: {
-      justifyContent: 'space-between',
-    },
-    brand: {
-      fontWeight: 'bold',
-      fontSize: '1.5rem',
-    },
-  };
-  
-  export default classes;
+  },
+  toolbar: {
+    justifyContent: 'space-between',
+  },
+  brand: {
+    fontWeight: 'bold',
+    fontSize: '1.5rem',
+  },
+  navbarButton: {
+    color: '#ffffff',
+    textTransform: 'initial',
+  },
+};
+
+export default classes;

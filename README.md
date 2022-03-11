@@ -1,4 +1,5 @@
-Implement User Register API
-    1. create user model
-    2. create user create route api
-    3. use it in the register screen
+ Create Shipping Screen
+    1. create shipping component
+    2. get address fields
+    3. implement submit handler
+    4. handle redirect
